@@ -1,0 +1,97 @@
+.bgCont {
+  background-color: #223a5f;
+  height: 100vh;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.scoreCardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: beige;
+  border-radius: 14px;
+  max-width: 800px;
+  width: 80%;
+  margin-bottom: 50px;
+}
+.equipmentName {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.scoreCard {
+  background-color: white;
+  color: #223a5f;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  width: 130px;
+  height: 130px;
+}
+.uList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 600px;
+  flex-wrap: wrap;
+}
+.ResultContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+.eachResultItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.resultImage {
+  width: 120px;
+  height: 120px;
+}
+.eachresultHeading {
+  color: white;
+  font-size: 15px;
+}
+.PLAYAGAINCONATINER {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-heading {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.play-again-btn {
+  background-color: white;
+  color: #223a5f;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.main-heading {
+  width: 120px;
+}
